@@ -36,6 +36,9 @@ input::placeholder {
 a:hover{
   text-decoration: underline !important;
 }
+.brand:hover{
+  text-decoration: none !important;
+}
 .navbar{
   box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
   color: white !important;
