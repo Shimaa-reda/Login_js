@@ -42,6 +42,7 @@ a:hover{
 .navbar{
   box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
   color: white !important;
+  height: 55px;
 
 }
 .navbar a{
@@ -67,4 +68,7 @@ a:hover{
   background-color: transparent;
   background-image: none;
   border-color: #17a2b8;
+}
+.text-gray{
+  color: #FFFFFF80;
 }
