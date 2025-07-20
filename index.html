@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- font awesome -->
+  <link rel="stylesheet" href="./css/all.min.css">
+
+  <!--  css bootstrap -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+  <!-- css -->
+  <link rel="stylesheet" href="./css/index.css">
+
+  <!-- media -->
+  <link rel="stylesheet" href="./css/media.css">
+
+  <!-- font -->
+  <title>Login</title>
+  
+</head>
+<body >
+  <div class="container my-5 text-center">
+    <div class="form p-5 w-75 m-auto">
+
+      <h1>Smart Login System</h1>
+
+      <div>
+        <input type="text" placeholder="Enter Your Email" class="form-control my-3 " id="userEmail" oninput=" validate(emailRegex,userEmail)">
+        <!-- <p class="errormsg d-none text-start">Please enter a valid email address.</p> -->
+        <div class="invalid-feedback text-start">
+          Please enter a valid email address.
+        </div>
+       </div>
+        
+
+       <div>
+        <input type="password" placeholder="Enter Your Password" class="form-control my-3" id="userPassword"oninput=" validate(passwordRegex,userPassword)" >
+        <!-- <p class="errormsg d-none text-start">Password must start with a capital letter, include a special character, and be 4–9 characters.</p> -->
+        <div class="invalid-feedback text-start">
+          Password must start with a capital letter, include a special character, and be 4–9 characters.
+        </div>
+       </div>  
+       <span class="text-center error d-none text-danger"></span>
+        <button class="btn btn-outline-info w-100 my-3" id="loginBtn">Login</button>
+        <p class="text-white">Don’t have an account? <a href="/signup.html" class="text-white" >Sign Up</a></p>
+
+    </div>
+
+  </div>
+  
+  <!-- js bootstrap -->
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <!-- js script -->
+  <script src="./js/login.js"></script>
+  
+</body>
+
+</html>
